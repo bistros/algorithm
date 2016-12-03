@@ -18,8 +18,7 @@ object QuickSort extends App {
 
   }
 
-
-  println("qs1 : " + qs1(Seq.fill(10)(Random.nextInt(100) ).toList))
+  println("qs1 : " + qs1(List.fill(10)(Random.nextInt(100))))
 
 
 }
